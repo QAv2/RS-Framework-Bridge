@@ -350,7 +350,7 @@ See: https://creativecommons.org/licenses/by/4.0/
 ## Contact & Community
 
 **Author**: Joseph Vanhorn  
-**Community**: International Society of Unified Science (ISUS)  
+**ORCID**: Add ORCID
 **Forum**: reciprocal.systems  
 **Related Work**: Topological Photonic Computing (DOI: 10.5281/zenodo.18226545)
 
@@ -360,10 +360,9 @@ See: https://creativecommons.org/licenses/by/4.0/
 
 This research builds on:
 - Dewey B. Larson's original Reciprocal System (1959-1990)
-- Bruce Peret's RS2 extensions (2008-present)
-- The broader RS research community
+- Bruce Peret's RS2 extensions
+- The broader RSRS research community
 
-Special thanks to the ISUS community for maintaining this body of knowledge and providing critical feedback during development.
 
 ---
 
