@@ -1,0 +1,26 @@
+§7.2a — Zero Density (Riemann-von Mangoldt)
+
+         T     N(T) actual         leading       +7/8 corr     rel err
+----------------------------------------------------------------------
+        10               0         -0.8519          0.0231     2.3056%
+        50              10          8.5478          9.4228     5.7722%
+       100              29         28.1273         29.0023     0.0081%
+       500             269        268.7117        269.5867     0.2181%
+      1000             649        647.7412        648.6162     0.0591%
+      5000            4520       4519.4562       4520.3312     0.0073%
+     10000           10142      10142.0903      10142.9653     0.0095%
+
+Max relative error with 7/8 correction: 5.772%
+Asymptotic N(T) → ∞ as T → ∞? Check:
+    T=    10: zeros/T = 0.00000, predicted log(T/2π)/(2π) = 0.07396
+    T=    50: zeros/T = 0.20000, predicted log(T/2π)/(2π) = 0.33011
+    T=   100: zeros/T = 0.29000, predicted log(T/2π)/(2π) = 0.44043
+    T=   500: zeros/T = 0.53800, predicted log(T/2π)/(2π) = 0.69658
+    T=  1000: zeros/T = 0.64900, predicted log(T/2π)/(2π) = 0.80690
+    T=  5000: zeros/T = 0.90400, predicted log(T/2π)/(2π) = 1.06305
+    T= 10000: zeros/T = 1.01420, predicted log(T/2π)/(2π) = 1.17336
+
+§7.2a prediction status:
+    PARTIAL — max error 5.772%; expected for low T.
+    The growth rate log(T/2π)/(2π) modes per unit T is consistent with
+    the RS2 reading of N(T) as birotational eigenmode density.

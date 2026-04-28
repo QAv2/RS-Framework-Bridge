@@ -1,0 +1,7 @@
+n=161/500  γ=336.841850  rate=5.32/s  eta=64s
+n=252/500  γ=473.835232  rate=4.16/s  eta=60s
+n=325/500  γ=577.039003  rate=3.58/s  eta=49s
+n=396/500  γ=674.355898  rate=3.28/s  eta=32s
+n=461/500  γ=760.282367  rate=3.05/s  eta=13s
+n=500/500  γ=811.184359  rate=2.92/s  eta=0s
+done. saved 500 zeros to /home/joseph/RS-Framework-Bridge/Riemann-Hypothesis/section-7-tests/data/zeros_imag.npy

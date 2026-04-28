@@ -1,0 +1,30 @@
+§7.1 — Trivial Zeros + Δσ=2 Spacing
+
+mp.dps = 50
+
+(a) Verifying ζ(-2k) ≈ 0 for k = 1..50:
+    max |ζ(-2k)| over k=1..50: 0.000e+00
+    verdict: PASS (numerically indistinguishable from 0)
+
+(b) Sanity check — ζ(-(2k+1)) at negative odd integers (should be NON-zero):
+    ζ( -1) = -0.083333
+    ζ( -3) = 0.008333
+    ζ( -5) = -0.003968
+    ζ( -7) = 0.004167
+    ζ( -9) = -0.007576
+    verdict: PASS — values are negative rationals (-1/12, etc.), confirming
+    only EVEN negatives are zeros.
+
+(c) Spacing Δσ between consecutive trivial zeros:
+    locations: [-2, -4, -6, -8, -10, -12, -14, -16, -18, -20]
+    gaps:      [-2, -2, -2, -2, -2, -2, -2, -2, -2]
+    all gaps == -2: True
+    |Δσ| = 2 exactly: PASS
+
+§7.1 prediction status:
+    EE-quaternion magnetic doubling → Δσ = 2 exactly: SUPPORTED.
+    Note: This is a structural fact about ζ(s), independent of RS2.
+    The RS2 *interpretation* of Δσ=2 as magnetic-doubling is a
+    physical reading of the existing math, not a new derivation.
+    Falsification target from §7.1: 'extra structure in Δσ at very negative σ'
+    is NOT observed — Δσ=2 holds for all k tested.

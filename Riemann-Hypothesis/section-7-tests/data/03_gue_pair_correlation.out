@@ -1,0 +1,50 @@
+§7.2b — GUE Pair Correlation
+
+Loaded 500 zeros, range γ_1=14.1347 to γ_500=811.1844
+
+Total pairs in window (0, 3.0]: 1245
+
+       r   R₂ Montgomery     R₂ observed     count
+-------------------------------------------------------
+   0.050          0.0082          0.0000         0
+   0.150          0.0719          0.0000         0
+   0.250          0.1894          0.1200         6
+   0.350          0.3434          0.2400        12
+   0.450          0.5119          0.3200        16
+   0.550          0.6733          0.7000        35
+   0.650          0.8096          0.8000        40
+   0.750          0.9099          1.2200        61
+   0.850          0.9711          0.9200        46
+   0.950          0.9973          1.1800        59
+   1.050          0.9978          1.0200        51
+   1.150          0.9842          0.7000        35
+   1.250          0.9676          0.9000        45
+   1.350          0.9559          0.9000        45
+   1.450          0.9530          1.1000        55
+   1.550          0.9589          0.9800        49
+   1.650          0.9705          0.9000        45
+   1.750          0.9835          1.1000        55
+   1.850          0.9939          0.9400        47
+   1.950          0.9993          0.9600        48
+   2.050          0.9994          0.9600        48
+   2.150          0.9955          0.9200        46
+   2.250          0.9900          0.9600        48
+   2.350          0.9854          1.0200        51
+   2.450          0.9835          0.8600        43
+   2.550          0.9848          1.1800        59
+   2.650          0.9885          1.0600        53
+   2.750          0.9933          1.0000        50
+   2.850          0.9974          0.7800        39
+   2.950          0.9997          1.1600        58
+
+Sum-squared residual vs Montgomery (GUE): 0.4654
+Sum-squared residual vs uniform (Poisson, no correlation): 4.3172
+Ratio (lower = better fit to Montgomery): 0.1078
+
+§7.2b prediction status:
+    SUPPORTED — Montgomery/GUE fits better than uniform by 89.2%.
+    Expected with N=500 zeros: visible structure, not yet asymptotically tight.
+    The RS2 birotation/time-reversal-symmetry-breaking explanation for
+    GUE-not-GOE is consistent with what is observed.
+    Note: load-bearing claim of §7.2; needs N >> 500 for tight agreement.
+    Odlyzko's tightest comparisons used 10⁹ zeros near T = 10²² (large T).

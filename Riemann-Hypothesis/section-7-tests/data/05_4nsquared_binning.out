@@ -1,0 +1,54 @@
+§7.3 — 4n² Structure Binning (speculative)
+
+Loaded 500 zeros
+
+Raw spacing summary:
+    n: 1..499
+    mean: 1.5973
+    median: 1.4496
+    min/max: 0.3104 / 6.8873
+
+Test (a): 4n² values for n = 1..10:
+    [4, 16, 36, 64, 100, 144, 196, 256, 324, 400]
+    These are O(100) at n=5, O(400) at n=10 — way above any spacing.
+
+Test (b): γ_{4n²} positions:
+    n= 1, k=4n²=  4, γ_k = 30.4249, γ_k / (2π) = 4.8423
+    n= 2, k=4n²= 16, γ_k = 67.0798, γ_k / (2π) = 10.6761
+    n= 3, k=4n²= 36, γ_k = 114.3202, γ_k / (2π) = 18.1946
+    n= 4, k=4n²= 64, γ_k = 169.9120, γ_k / (2π) = 27.0423
+    n= 5, k=4n²=100, γ_k = 236.5242, γ_k / (2π) = 37.6440
+    n= 6, k=4n²=144, γ_k = 310.1095, γ_k / (2π) = 49.3555
+    n= 7, k=4n²=196, γ_k = 391.4561, γ_k / (2π) = 62.3022
+    n= 8, k=4n²=256, γ_k = 478.9422, γ_k / (2π) = 76.2260
+    n= 9, k=4n²=324, γ_k = 575.8072, γ_k / (2π) = 91.6426
+    n=10, k=4n²=400, γ_k = 679.7422, γ_k / (2π) = 108.1843
+    n=11, k=4n²=484, γ_k = 790.8316, γ_k / (2π) = 125.8648
+    No obvious structured ratio. Differences between consecutive γ_{4n²}:
+    ['36.65', '47.24', '55.59', '66.61', '73.59', '81.35', '87.49', '96.87', '103.93', '111.09']
+
+Test (c): bin first N-1 spacings into groups of 4n² and check mean:
+      n   bin_size=8n-4   #in_bin    mean spacing
+      1               4         4          4.7001
+      2              12        12          3.0509
+      3              20        20          2.3340
+      4              28        28          2.0423
+      5              36        36          1.7877
+      6              44        44          1.6681
+      7              52        52          1.5592
+      8              60        60          1.4931
+      9              68        68          1.4001
+     10              76        76          1.3797
+
+    mean spacings vs bin index: ['4.700', '3.051', '2.334', '2.042', '1.788', '1.668', '1.559', '1.493', '1.400', '1.380']
+    consecutive ratios: ['1.541', '1.307', '1.143', '1.142', '1.072', '1.070', '1.044', '1.066', '1.015']
+
+§7.3 prediction status:
+    SPECULATIVE — no obvious 4n² structure jumps out from the binning.
+    Binning by 8n-4 (the gap in 4n² triangle numbers) does not reveal
+    a striking pattern. Spacing decreases monotonically as expected from
+    Riemann-von Mangoldt density growth, with no superimposed 4n² envelope.
+    Honest verdict: NOT FALSIFIED but NOT CONFIRMED. §7.3 was flagged
+    speculative in the cold derivation; this result keeps it flagged speculative.
+    A positive identification would require a more principled binning rule
+    derived directly from RS2-105 (quantum π = 4) rather than ad-hoc.
