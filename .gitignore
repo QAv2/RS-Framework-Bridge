@@ -7,6 +7,12 @@ RS2-foundations/nehru-spin-photos/
 # Sealed prior-art experimental data (private)
 Riemann-Hypothesis/prior-art/
 
+# Sealed prior-art conversation copies (private; SEALED.md only is tracked)
+**/prior-art/2026-*.md
+
+# Methodology paper — local-only until arXiv-ready
+methodology-paper/
+
 # Source-paper PDFs and verbatim extractions (redistribute risk — keep .md distillations only)
 RS-research-corpus/nehru-peret/_pdfs/
 RS-research-corpus/nehru-peret/_text/
