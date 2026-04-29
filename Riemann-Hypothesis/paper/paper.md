@@ -782,4 +782,4 @@ The natural next research targets are three: the Hilbert–Pólya construction o
 
 [^selberg1956]: Selberg, A. (1956). Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces with applications to Dirichlet series. *Journal of the Indian Mathematical Society* 20, 47–87.
 
-[^vanhornMethodology]: Vanhorn, J., with Claude Opus 4.7 (2026). *A methodological account: cold re-derivation across model versions*. Companion to this paper.
+[^vanhornMethodology]: Vanhorn, J., with Claude Opus 4.7 (2026). *Cold Re-Derivation Across Model Versions: A Replication Methodology for AI-Assisted Theoretical Research*. In preparation; companion to this paper.

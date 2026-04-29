@@ -15,6 +15,12 @@ Riemann-Hypothesis/prior-art/
 # Methodology paper — local-only until arXiv-ready
 methodology-paper/
 
+# Companion paper — local-only until target-venue selection
+companion-paper/
+
+# Internal working audits / editorial notes (not published artifacts)
+cross-consistency-audit.md
+
 # Source-paper PDFs and verbatim extractions (redistribute risk — keep .md distillations only)
 RS-research-corpus/nehru-peret/_pdfs/
 RS-research-corpus/nehru-peret/_text/
