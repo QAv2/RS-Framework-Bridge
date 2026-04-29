@@ -1,0 +1,19 @@
+# Photo scans (copyright)
+RS2-foundations/ee-paper-photos/
+RS2-foundations/nehru-spin-photos/
+*.HEIC
+*.heic
+
+# Sealed prior-art experimental data (private)
+Riemann-Hypothesis/prior-art/
+
+# Source-paper PDFs and verbatim extractions (redistribute risk — keep .md distillations only)
+RS-research-corpus/nehru-peret/_pdfs/
+RS-research-corpus/nehru-peret/_text/
+
+# Python / build artifacts
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.DS_Store
